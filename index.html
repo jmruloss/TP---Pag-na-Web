@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curlden</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div>
+    <header>
+        <img src="imagenes/banner.jpeg" alt="Logo" class="foto1">
+            <img src="imagenes/carrito.png" alt="Carrito" class="foto2">
+        <nav>
+            <a href="index.html" class="inicio">INICIO</a>
+            <a href="plantas.html" class="plantas">PLANTAS</a>
+            <a href="tierras.html" class="tierras">TIERRAS</a>
+            <a href="herramientas.html" class="herramientas">HERRAMIENTAS</a>
+            <a href="adornos.html" class="adornos">ADORNOS</a>
+            <a href="carrito.html" class="carrito">Ir al carrito:</a>
+        </nav>
+    </header>
+</div>
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="imagenes/vivero.jpeg" class="d-block w-100" alt="vivero">
+    </div>
+        <div class="carousel-item">
+        <img src="imagenes/herramientas.jpeg" class="d-block w-100" alt="herramientas">
+    </div>
+        <div class="carousel-item">
+        <img src="imagenes/adornos.jpeg" class="d-block w-100" alt="adornos">
+    </div>
+        <div class="carousel-item">
+        <img src="imagenes/tierras.jpeg" class="d-block w-100" alt="tierras">
+</div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+    <div>
+        <img src="imagenes/verdee.jpg" class="verde" alt="gris">
+    </div>
+    <h1 class="texto1">
+        DESCUENTOS:
+    </h1>
+<div class="descuento">
+    <div>
+        <img src="imagenes/descuento1.jpeg" alt="d1" class="fotodes">
+    </div>
+    <div>
+        <img src="imagenes/descuento2.jpeg" alt="d2" class="fotodes">
+    </div>
+    <div>
+        <img src="imagenes/descuento3.jpeg" alt="d3" class="fotodes">
+    </div>
+    <div>
+        <img src="imagenes/verdebanner.jpeg" class="verdebanner" alt="gris">
+    </div>
+</div>
+    <div class="cont">
+        <div class="card" >
+            <img src="imagenes/maceta.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Maceta de Plastico</h5>
+            <p class="card-text">plástico resistente, liviana y práctica, ideal para interior o exterior, 15x35cm.</p>
+            <button onclick="agregarAlCarrito(1)" class="btn-carrito">Agregar al carrito</button>
+            </div>
+        </div>
+    
+        <div class="card" >
+            <img src="imagenes/paladescuento.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Pala Chica</h5>
+            <p class="card-text">Pala pequeña de mano, ligera y duradera, perfecta para jardinería y trasplante de plantas.</p>
+            <button onclick="agregarAlCarrito(2)" class="btn-carrito">Agregar al carrito</button>
+            </div>
+        </div>
+    
+        <div class="card" >
+            <img src="imagenes/guantes.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Guantes Jardineros</h5>
+            <p class="card-text">Guantes de jardinería cómodos y resistentes, protegen tus manos mientras trabajás con plantas y tierra.</p>
+            <button onclick="agregarAlCarrito(3)" class="btn-carrito">Agregar al carrito</button>
+            </div>
+        </div>
+    
+        <div class="card" >
+            <img src="imagenes/macetacemento.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Maceta de Cemento</h5>
+            <p class="card-text">Maceta de cemento robusta y elegante, ideal para dar un toque moderno y duradero a tus plantas.</p>
+            <button onclick="agregarAlCarrito(4)" class="btn-carrito">Agregar al carrito</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="imagenes/contactobanner.jpeg" class="contacto" alt="...">
+    </div>
+    <h1 class="texto2">
+        Contacto: curldenjardineria2025@gmail.com
+    </h1>
+    <h1 class="texto3">
+        Num. Telefono: +54 9 3564 20-3856 (Para Servicios Jardineros).
+    </h1>
+<script src="assets/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="ScriptCatalogo.js"></script>
+
+</body>
+</html>

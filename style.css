@@ -1,0 +1,618 @@
+body{
+    border: 3px solid black;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 2400px;
+}
+.descuento{
+    display: flex;
+    background-color: rgb(41, 85, 41);
+}
+.foto1{
+    border-radius: 100;
+    width: 1360px;
+    height: 300px;
+}
+.foto2{
+    position: absolute;
+    top: 23px;
+    left: 90%;
+    width: 100px;
+    height: 100px;
+}
+.inicio{
+    position: absolute;
+    top: 180px;
+    left: 500px;
+    color: rgb(137, 218, 137);
+}
+.plantas{
+    position: absolute;
+    top: 180px;
+    left: 560px;
+    color: rgb(137, 218, 137);
+}
+.tierras{
+    position: absolute;
+    top: 180px;
+    left: 640px;
+    color: rgb(137, 218, 137);
+}
+.herramientas{
+    position: absolute;
+    top: 180px;
+    left: 717px;
+    color: rgb(137, 218, 137);
+}
+.adornos{
+    position: absolute;
+    top: 180px;
+    left: 850px;
+    color: rgb(137, 218, 137);
+}
+.carrito{
+    position: absolute;
+    top: 130px;
+    left: 1235px;
+    color: rgb(137, 218, 137);
+}
+.verde{
+    position: absolute;
+    top: 1465px;
+    width: 1360px;
+    height: 100px;
+}
+.fotodes{
+    margin-left: 20%;
+    width: 400px;
+    height: 400px;
+}
+.texto1{
+    position: absolute;
+    top: 1490px;
+    left: 540px;
+    color: antiquewhite;
+}
+.texto2{
+    position: absolute;
+    top: 2120px;
+    color: rgb(0, 0, 0);
+}
+.texto3{
+    position: absolute;
+    top: 2170px;
+    color: rgb(0, 0, 0);
+}
+.verdebanner{
+    position: absolute;
+    top: 1565px;
+    left: 1px;
+    width: 1365px;
+    height: 500px;
+}
+.card{
+    top: 120px;
+    left: 40px;
+    width: 250px;
+    height: 200px;
+    margin-left: 4%;
+}
+.cont{
+    display: flex;
+}
+.contacto{
+    width: 1360px;
+    height: 500px
+}
+.hojas{
+    height: 2400px;
+    width: 1360px;
+}
+.nom{
+    position: absolute;
+    left: 155px;
+}
+.tarjeta1{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 220px;
+    top: 500px;
+    background-color: rgb(50, 93, 55);
+}
+.pro1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+.texto4{
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    color: black;
+}
+.tarjeta2{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 765px;
+    top: 500px;
+    background-color: rgb(50, 93, 55);
+}
+.pro2{
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.tarjeta3{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 220px;
+    top: 1080px;
+    background-color: rgb(50, 93, 55);
+}
+.pro3{
+    width: 365px;
+    height: 380px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.tarjeta4{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 765px;
+    top: 1080px;
+    background-color: rgb(50, 93, 55);
+}
+.pro4{
+    width: 360px;
+    height: 380px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.tarjeta5{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 220px;
+    top: 1650px;
+    background-color: rgb(50, 93, 55);
+}
+.pro5{
+    width: 340px;
+    height: 360px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.tarjeta6{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 765px;
+    top: 1080px;
+    background-color: rgb(50, 93, 55);
+}
+.pro6{
+    width: 340px;
+    height: 360px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.tarjeta7{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 765px;
+    top: 1650px;
+    background-color: rgb(50, 93, 55);
+}
+.pro7{
+    width: 340px;
+    height: 360px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.texto5{
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    color: black;
+}
+.tarjeta8{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 765px;
+    top: 2250px;
+    background-color: rgb(50, 93, 55);
+}
+.nom1{
+    position: absolute;
+    left: 150px;
+}
+.pro8{
+    width: 340px;
+    height: 360px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.tarjeta9{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 220px;
+    top: 2250px;
+    background-color: rgb(50, 93, 55);
+}
+.pro9{
+    width: 340px;
+    height: 360px;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+.tierraa{
+    height: 2400px;
+    width: 1360px;
+}
+.tarjeta10{
+    border: 3px solid black;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 410px;
+    top: 395px;
+    background-color: rgb(107, 85, 49);
+}
+.nom2{
+    position: absolute;
+    left: 150px;
+}
+.pro10{
+    width: 400px;
+    height: 420px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+.texto6{
+    position: absolute;
+    left: 180px;
+    top: 440px;
+    color: black;
+}
+.tarjeta11{
+    border: 3px solid black;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 410px;
+    top: 980px;
+    background-color: rgb(107, 85, 49);
+}
+.pro11{
+    width: 400px;
+    height: 420px;
+    position: absolute;
+    left: 0px;
+    top: 35px;
+}
+.texto7{
+    position: absolute;
+    left: 180px;
+    top: 440px;
+    color: black;
+}
+.tarjeta12{
+    border: 3px solid black;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 410px;
+    top: 1520px;
+    background-color: rgb(107, 85, 49);
+}
+.pro12{
+    width: 400px;
+    height: 420px;
+    position: absolute;
+    left: 0px;
+    top: 35px;
+}
+.texto8{
+    position: absolute;
+    left: 180px;
+    top: 440px;
+    color: black;
+}
+.tarjeta13{
+    border: 3px solid black;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 410px;
+    top: 2130px;
+    background-color: rgb(107, 85, 49);
+}
+.pro13{
+    width: 400px;
+    height: 420px;
+    position: absolute;
+    left: 0px;
+    top: 35px;
+}
+.texto9{
+    position: absolute;
+    left: 180px;
+    top: 440px;
+    color: black;
+}
+.fnegro{
+    height: 2400px;
+    width: 1360px;
+}
+.nom3{
+    position: absolute;
+    left: 155px;
+}
+.tarjeta14{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 220px;
+    top: 500px;
+    background-color: rgb(108, 122, 110);
+}
+.pro14{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+.texto10{
+    position: absolute;
+    left: 5px;
+    top: 60px;
+    color: black;
+}
+.tarjeta15{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 765px;
+    top: 500px;
+    background-color: rgb(108, 122, 110);
+}
+.pro15{
+    width: 280px;
+    height: 300px;
+    position: absolute;
+    left: 40px;
+    top: 70px;
+}
+.texto11{
+    position: absolute;
+    left: 5px;
+    top: 60px;
+    color: black;
+}
+.nom4{
+    position: absolute;
+    left: 145px;
+}
+.tarjeta16{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 220px;
+    top: 1080px;
+    background-color: rgb(108, 122, 110);
+}
+.pro16{
+    width: 365px;
+    height: 380px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.texto12{
+    position: absolute;
+    left: 5px;
+    top: 60px;
+    color: black;
+}
+.nom5{
+    position: absolute;
+    left: 140px;
+}
+.tarjeta17{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 765px;
+    top: 1080px;
+    background-color: rgb(108, 122, 110);
+}
+.pro17{
+    width: 325px;
+    height: 340px;
+    position: absolute;
+    left: 35px;
+    top: 22px;
+}
+.tarjeta18{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 220px;
+    top: 1650px;
+    background-color: rgb(108, 122, 110);
+}
+.pro18{
+    width: 325px;
+    height: 340px;
+    position: absolute;
+    left: 1px;
+    top: 38px;
+}
+.nom6{
+    position: absolute;
+    left: 160px;
+}
+.tarjeta19{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 765px;
+    top: 1650px;
+    background-color: rgb(108, 122, 110);
+}
+.pro19{
+    width: 305px;
+    height: 320px;
+    position: absolute;
+    left: 35px;
+    top: 38px;
+}
+.nom7{
+    position: absolute;
+    left: 131px;
+}
+.tarjeta20{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 220px;
+    top: 2250px;
+    background-color: rgb(108, 122, 110);
+}
+.pro20{
+    width: 315px;
+    height: 320px;
+    position: absolute;
+    left: 1px;
+    top: 35px;
+}
+.tarjeta21{
+    border: 3px solid black;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 765px;
+    top: 2250px;
+    background-color: rgb(108, 122, 110);
+}
+.pro21{
+    width: 380px;
+    height: 380px;
+    position: absolute;
+}
+.fadornos{
+    height: 2400px;
+    width: 1360px;
+}
+.tarjeta22{
+    border: 3px solid black;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 410px;
+    top: 395px;
+    background-color: rgb(46, 104, 51);
+}
+.pro22{
+    width: 400px;
+    height: 420px;
+    position: absolute;
+    left: 45px;
+    top: 50px;
+}
+.nom8{
+    position: absolute;
+    left: 165px;
+}
+.tarjeta23{
+    border: 3px solid black;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 410px;
+    top: 980px;
+    background-color: rgb(46, 104, 51);
+}
+.pro23{
+    width: 400px;
+    height: 420px;
+    position: absolute;
+    left: 45px;
+    top: 50px;
+}
+.nom9{
+    position: absolute;
+    left: 200px;
+}
+.tarjeta24{
+    border: 3px solid black;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 410px;
+    top: 1520px;
+    background-color: rgb(46, 104, 51);
+}
+.pro24{
+    width: 400px;
+    height: 420px;
+    position: absolute;
+    left: 45px;
+    top: 50px;
+}
+.tarjeta25{
+    border: 3px solid black;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 410px;
+    top: 2130px;
+    background-color: rgb(46, 104, 51);
+}
+.pro25{
+    width: 450px;
+    height: 470px;
+    position: absolute;
+    left: 18px;
+    top: 20px;
+}
+.nom10{
+    position: absolute;
+    left: 165px;
+}
